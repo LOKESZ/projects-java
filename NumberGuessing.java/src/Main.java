@@ -28,6 +28,7 @@ class Main
                 System.out.print("Would you like to playa again? Yes or No: ");
                 play=sc.next().toLowerCase();
             }
+//else part
             else if(guess>randNum)
             {
                 System.out.println("Your guess is too high, try again");
@@ -40,4 +41,4 @@ class Main
     sc.close();
  }
 }
-//javanumberguessing
+
